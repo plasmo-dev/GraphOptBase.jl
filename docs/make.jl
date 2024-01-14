@@ -1,14 +1,14 @@
-using OptiGraphsBase
+using GraphOptBase
 using Documenter
 
-DocMeta.setdocmeta!(OptiGraphsBase, :DocTestSetup, :(using OptiGraphsBase); recursive=true)
+DocMeta.setdocmeta!(GraphOptBase, :DocTestSetup, :(using GraphOptBase); recursive=true)
 
 makedocs(;
-    modules=[OptiGraphsBase],
+    modules=[GraphOptBase],
     authors="jalving <jhjalving@gmail.com> and contributors",
-    sitename="OptiGraphsBase.jl",
+    sitename="GraphOptBase.jl",
     format=Documenter.HTML(;
-        canonical="https://jalving.github.io/OptiGraphsBase.jl",
+        canonical="https://jalving.github.io/GraphOptBase.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -18,6 +18,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/jalving/OptiGraphsBase.jl",
+    repo="github.com/jalving/GraphOptBase.jl",
     devbranch="main",
 )

@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = OptiGraphsBase
+CurrentModule = GraphOptBase
 ```
 
-# OptiGraphsBase
+# GraphOptBase
 
-Documentation for [OptiGraphsBase](https://github.com/jalving/OptiGraphsBase.jl).
+Documentation for [GraphOptBase](https://github.com/jalving/GraphOptBase.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [OptiGraphsBase]
+Modules = [GraphOptBase]
 ```

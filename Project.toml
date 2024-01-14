@@ -1,5 +1,5 @@
-name = "OptiGraphsBase"
-uuid = "ce462350-4bb8-46ed-9258-80a4373c1477"
+name = "GraphOptBase"
+uuid = "23d0520c-48bd-4fb4-88df-8abcfa9b0728"
 authors = ["jalving <jhjalving@gmail.com> and contributors"]
 version = "1.0.0-DEV"
 

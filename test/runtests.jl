@@ -1,6 +1,6 @@
-using OptiGraphsBase
+using GraphOptBase
 using Test
 
-@testset "OptiGraphsBase.jl" begin
+@testset "GraphOptBase.jl" begin
     # Write your tests here.
 end
