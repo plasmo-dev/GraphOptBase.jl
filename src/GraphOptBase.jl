@@ -1,5 +1,11 @@
 module GraphOptBase
 
-# Write your package code here.
+using DataStructures
+using Graphs
+import Base: ==,
+
+include("hypergraph.jl")
+
+include("bipartite.jl")
 
 end
